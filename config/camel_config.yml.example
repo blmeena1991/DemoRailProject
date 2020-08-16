@@ -1,0 +1,7 @@
+default: &default
+  default_per_page: 10
+development:
+  <<: *default
+
+test:
+  <<: *default
